@@ -7,7 +7,7 @@ st.title('Estimasi Harga Rumah di Chicago')
 
 Bedroom = st.number_input('Input Kamar')
 Space = st.number_input('Input Ukuran')
-Room = st.number_input('Input Jumlah Kamar')
+Room = st.number_input('Input Jumlah Ruangan')
 Lot = st.number_input('Lebar')
 Tax = st.number_input('Input Pajak')
 Bathroom = st.number_input('Input Kamar Mandi')
