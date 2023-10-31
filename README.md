@@ -96,7 +96,7 @@ Visualisasi Price
 ```py
 target = df['Price']
 sns.histplot(target);
-```py
+```
 
 ![Alt text](bar.png)
 
@@ -105,6 +105,7 @@ Selanjutnya kita akan melihat seberapa banyak rumah yang bagus dan sebaliknya me
 plt.pie(df['Condition'].value_counts(),
        labels = df['Condition'].value_counts())
 ```
+
 ![Alt text](pie.png)
 
 Ternyata menunjukan bahwa, rumah yang kondisinya bagus terdapat 121 rumah dan kondisi sebaliknya terdapat 36 rumah
