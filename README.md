@@ -129,6 +129,7 @@ print('akurasi model regresi linier = ', score))
 Akurasi yang di dapatkan sebesar 0.8669684410812288 atau sekitar 86%
 
 ## Deployment
+Klik gambar dibawah ini!
 [![Logo GitHub](stream.png)](https://chicagohouse-anggun.streamlit.app/)
 
 
