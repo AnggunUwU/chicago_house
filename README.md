@@ -129,5 +129,5 @@ print('akurasi model regresi linier = ', score))
 Akurasi yang di dapatkan sebesar 0.8669684410812288 atau sekitar 86%
 
 ## Deployment
-[Deployment Chicago House Price](https://chicagohouse-anggun.streamlit.app/) ![image](https://github.com/AnggunUwU/chicago_house/assets/149172875/f1745c1f-6436-4d66-8138-2745ed3b1027)
+![image][Deployment Chicago House Price](https://chicagohouse-anggun.streamlit.app/) (https://github.com/AnggunUwU/chicago_house/assets/149172875/f1745c1f-6436-4d66-8138-2745ed3b1027)
 
