@@ -110,7 +110,7 @@ y = df['Price']
 ```
 x nya itu selain dari pada kolom price dan y nya price
 ### Modelling
-Kita langsung eksekusi dengan melakukan split data test 10% dan randomstate 45%.
+Kita langsung eksekusi dengan melakukan split data test 10% dan randomstate 45.
 ```py
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.1, random_state=45)
 ```
