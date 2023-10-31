@@ -99,6 +99,8 @@ plt.pie(df['Condition'].value_counts(),
 ```
 ![Alt text](pie.png)
 
+Ternyata menunjukan bahwa, rumah yang kondisinya bagus terdapat 121 rumah dan kondisi sebaliknya terdapat 36 rumah
+
 Datanya sudah oke.
 ### Data Preprocessing
 Saya tidak menggunakan seleksi fitur dikarena kan tipe data saya float64 sehingga:
