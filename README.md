@@ -129,6 +129,6 @@ print('akurasi model regresi linier = ', score))
 Akurasi yang di dapatkan sebesar 0.8669684410812288 atau sekitar 86%
 
 ## Deployment
-[![Logo GitHub]([https://github.githubassets.com/images/modules/logos_page/Octocat.png](https://chicagohouse-anggun.streamlit.app/))]([https://github.com/](https://chicagohouse-anggun.streamlit.app/)https://chicagohouse-anggun.streamlit.app/)
+[![Logo GitHub]("D:\Users\Acer\Pictures\Screenshots\Screenshot (1354).png")(https://chicagohouse-anggun.streamlit.app/))]([https://github.com/](https://chicagohouse-anggun.streamlit.app/)https://chicagohouse-anggun.streamlit.app/)
 
 
