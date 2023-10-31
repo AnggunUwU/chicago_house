@@ -90,7 +90,7 @@ kita akan memvisualisasikan heat map null
 ```py
 sns.heatmap(df.isnull())
 ```
-![Alt text](Heatmap.png)
+![Alt text](nullpink.png)
 
 Selanjutnya kita akan melihat seberapa banyak rumah yang bagus dan sebaliknya menggunakan Pie Chart
 ```py
