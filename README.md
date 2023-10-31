@@ -135,7 +135,7 @@ Setelah di proses kita tampilkan score dari proses modelling tersebut.
 score = lr.score(X_test, y_test)
 print('akurasi model regresi linier = ', score))
 ```
-![Alt text](akurasi.png)
+![Alt text](kode.png)
 
 Akurasi yang di dapatkan sebesar 0.7285612813499596 atau sekitar 72%
 
