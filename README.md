@@ -92,6 +92,14 @@ sns.heatmap(df.isnull())
 ```
 ![Alt text](nullpink.png)
 
+Visualisasi Price
+```py
+target = df['Price']
+sns.histplot(target);
+```py
+
+![Alt text](bar.png)
+
 Selanjutnya kita akan melihat seberapa banyak rumah yang bagus dan sebaliknya menggunakan Pie Chart
 ```py
 plt.pie(df['Condition'].value_counts(),
@@ -110,9 +118,9 @@ y = df['Price']
 ```
 x nya itu selain dari pada kolom price dan y nya price
 ### Modelling
-Kita langsung eksekusi dengan melakukan split data test 10% dan randomstate 45.
+Kita langsung eksekusi dengan melakukan test split randomstate 70.
 ```py
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.1, random_state=45)
+X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=70)
 ```
 Proses modelling sendiri kita masukan proses Linear Regression
 ```py
@@ -128,7 +136,7 @@ print('akurasi model regresi linier = ', score))
 ```
 ![Alt text](akurasi.png)
 
-Akurasi yang di dapatkan sebesar 0.8669684410812288 atau sekitar 86%
+Akurasi yang di dapatkan sebesar 0.7285612813499596 atau sekitar 72%
 
 ## Deployment
 Klik gambar dibawah ini!
