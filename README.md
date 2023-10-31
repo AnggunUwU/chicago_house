@@ -84,6 +84,17 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(),annot=True)
 ```
 ![Alt text](Heatmap.png)
+kita akan memvisualisasikan heat map null
+```py
+sns.heatmap(df.isnull())
+```
+![Alt text](Heatmap.png)
+
+Selanjutnya kita akan melihat seberapa banyak rumah yang bagus dan sebaliknya menggunakan Pie Chart
+```py
+plt.pie(df['Condition'].value_counts(),
+       labels = df['Condition'].value_counts())
+![Alt text](pie.png)```
 
 Datanya sudah oke.
 ### Data Preprocessing
@@ -111,4 +122,5 @@ score = lr.score(X_test, y_test)
 print('akurasi model regresi linier = ', score))
 ```
 ![Alt text](akurasi.png)
+
 Akurasi yang di dapatkan sebesar 0.8669684410812288 atau sekitar 86%
